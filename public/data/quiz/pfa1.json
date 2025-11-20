@@ -1,0 +1,538 @@
+[
+  {
+    "question": "Cilat janë periudhat e zhvillimit prenatal?",
+    "answers": [
+      "Zigotë, embrion, fetus",
+      "Foshnjëri, fëmijëri, adoleshencë",
+      "Konceptim, pubertet, moshë e rritur"
+    ]
+  },
+  {
+    "question": "Çfarë është gjenotipi?",
+    "answers": [
+      "Materiali gjenetik i trashëguar nga prindërit",
+      "Tiparet e dukshme të individit",
+      "Sjelljet që mësohen nga mjedisi"
+    ]
+  },
+  {
+    "question": "Çfarë është fenotipi?",
+    "answers": [
+      "Shprehja e dukshme e tipareve të trashëgueshme",
+      "Kombinimi i kromozomeve të seksit",
+      "Numri total i neuroneve"
+    ]
+  },
+  {
+    "question": "Çfarë është organizmi heterozigot?",
+    "answers": [
+      "Ka dy alele të ndryshme për një tipar",
+      "Ka dy alele identike për një tipar",
+      "Ka vetëm një alel aktiv"
+    ]
+  },
+  {
+    "question": "Nga cila shtresë embrionale zhvillohen kockat dhe muskujt?",
+    "answers": ["Mezoderma", "Ektoderma", "Endoderma"]
+  },
+  {
+    "question": "Cili është parimi i zhvillimit proksimodistal?",
+    "answers": [
+      "Rritja fillon nga qendra e trupit drejt ekstremiteteve",
+      "Rritja fillon nga këmbët drejt kokës",
+      "Rritja ndodh vetëm në organet e jashtme"
+    ]
+  },
+  {
+    "question": "Cili është parimi i zhvillimit cefalokaudal?",
+    "answers": [
+      "Rritja ndodh nga koka drejt pjesëve të poshtme të trupit",
+      "Rritja ndodh njëkohësisht në të gjithë trupin",
+      "Rritja ndodh vetëm në gjymtyrë"
+    ]
+  },
+  {
+    "question": "Si zhvillohen binjakët dizigotë?",
+    "answers": [
+      "Nga dy vezë të ndryshme të fekonduara nga dy spermatozoide të ndryshme",
+      "Nga një vezë që ndahet në dy embrione",
+      "Nga një zigotë që nuk ndahet plotësisht"
+    ]
+  },
+  {
+    "question": "Si zhvillohen binjakët monozigotë?",
+    "answers": [
+      "Nga një vezë e vetme e fekonduar që ndahet në dy pjesë",
+      "Nga dy vezë të ndara që fekondohen",
+      "Nga dy spermatozoide që futen në një vezë"
+    ]
+  },
+  {
+    "question": "Sipas Piaget, çfarë janë skemat?",
+    "answers": [
+      "Struktura të organizuara të njohurisë që përshtaten me përvojën",
+      "Reflekse të lindura të pandryshueshme",
+      "Modele të sjelljes së trashëguar gjenetikisht"
+    ]
+  },
+  {
+    "question": "Çfarë është asimilimi sipas Piaget?",
+    "answers": [
+      "Përshtatja e informacionit të ri në skemat ekzistuese",
+      "Rishikimi i skemave të vjetra për informacion të ri",
+      "Zhvillimi i funksioneve abstrakte"
+    ]
+  },
+  {
+    "question": "Çfarë është akomodimi sipas Piaget?",
+    "answers": [
+      "Ndryshimi i skemave për t'iu përshtatur informacionit të ri",
+      "Mbajtja e skemave ekzistuese pavarësisht informacionit",
+      "Zgjerimi i kujtesës afatgjatë"
+    ]
+  },
+  {
+    "question": "Cila fazë e Freud karakterizohet nga kompleksi i Edipit?",
+    "answers": ["Faza falike", "Faza orale", "Faza gjenitale"]
+  },
+  {
+    "question": "Cila është faza e parë e zhvillimit psikosocial sipas Eriksonit?",
+    "answers": [
+      "Besimi kundrejt mosbesimit",
+      "Autonomia kundrejt turpit",
+      "Iniciativa kundrejt fajit"
+    ]
+  },
+  {
+    "question": "Cila është faza sensomotorike sipas Piaget?",
+    "answers": [
+      "0–2 vjeç, njohja përmes shqisave dhe lëvizjes",
+      "2–7 vjeç, zhvillimi i gjuhës",
+      "7–11 vjeç, mendimi konkret"
+    ]
+  },
+  {
+    "question": "Cila është ideja qendrore e Vygotsky-t?",
+    "answers": [
+      "Mësimi është proces social dhe ndodh përmes ndërveprimit",
+      "Zhvillimi varet vetëm nga maturimi biologjik",
+      "Fëmijët mësojnë vetëm përmes provës dhe gabimit"
+    ]
+  },
+  {
+    "question": "Çfarë thotë teoria e të mësuarit social e Bandurës?",
+    "answers": [
+      "Fëmijët mësojnë duke vëzhguar dhe imituar modelet",
+      "Fëmijët mësojnë vetëm me ndëshkim",
+      "Fëmijët mësojnë vetëm përmes përforcimit material"
+    ]
+  },
+  {
+    "question": "Cili stil prindërimi është më efektiv për zhvillimin e fëmijës?",
+    "answers": [
+      "Stili autoritativ (i ngrohtë dhe me kufij)",
+      "Stili autoritar (i ashpër)",
+      "Stili lejues"
+    ]
+  },
+  {
+    "question": "Çfarë është atashimi i sigurt?",
+    "answers": [
+      "Lidhja ku fëmija ndihet i mbrojtur dhe eksploron lirshëm",
+      "Lidhja ku fëmija shmang kontaktin me kujdestarin",
+      "Lidhja ku fëmija është i paqëndrueshëm emocionalisht"
+    ]
+  },
+  {
+    "question": "Çfarë janë studimet longitudinale?",
+    "answers": [
+      "Studime ku e njëjta grupë ndiqet për periudha të ndryshme kohore",
+      "Studime me grupe të moshave të ndryshme në një kohë",
+      "Studime laboratorike pa ndjekje kohore"
+    ]
+  },
+  {
+    "question": "Çfarë janë studimet ndërseksionale?",
+    "answers": [
+      "Studime ku krahasohen mosha të ndryshme në një moment të vetëm",
+      "Studime ku ndiqet një grup gjatë shumë viteve",
+      "Studime ku bëhet eksperiment me ndryshore"
+    ]
+  },
+  {
+    "question": "Kush e përbën mikrosistemin sipas Bronfenbrenner?",
+    "answers": [
+      "Familja, shkolla, bashkëmoshatarët",
+      "Ligjet dhe kultura",
+      "Politikat ekonomike"
+    ]
+  },
+  {
+    "question": "Kush e përbën makrosistemin?",
+    "answers": [
+      "Vlerat kulturore, traditat, ligjet",
+      "Marrëdhëniet familjare",
+      "Ndikimet e përditshme të shkollës"
+    ]
+  },
+  {
+    "question": "Cila është periudha e sapolindurit?",
+    "answers": ["0–4 javët pas lindjes", "0–6 muaj", "1–12 muaj"]
+  },
+  {
+    "question": "Cili refleks është refleks primitiv?",
+    "answers": ["Refleksi Moro", "Refleksi i thithjes", "Refleksi i gëlltitjes"]
+  },
+  {
+    "question": "Çfarë është maturimi në psikologjinë e zhvillimit?",
+    "answers": [
+      "Proces biologjik i programuar gjenetikisht që ndodh me kalimin e kohës",
+      "Mësimi përmes përvojave shoqërore",
+      "Ndryshimi i sjelljes përmes përforcimit"
+    ]
+  },
+  {
+    "question": "Cili është funksioni kryesor i kordoni umbilikal gjatë shtatzënisë?",
+    "answers": [
+      "Transporton lëndët ushqyese dhe oksigjenin te fetusi",
+      "Mbron fetusin nga zhurmat",
+      "Ndihmon në formimin e trurit"
+    ]
+  },
+  {
+    "question": "Cila periudhë e zhvillimit karakterizohet nga rritja më e shpejtë e trurit?",
+    "answers": [
+      "Foshnjëria (0–2 vjeç)",
+      "Fëmijëria e vonë",
+      "Adoleshenca e vonë"
+    ]
+  },
+  {
+    "question": "Çfarë janë teratogjenët?",
+    "answers": [
+      "Substanca që dëmtojnë embrionin ose fetusin gjatë shtatzënisë",
+      "Hormone që nxisin rritjen",
+      "Proteina që ndihmojnë zhvillimin e muskujve"
+    ]
+  },
+  {
+    "question": "Cila shqisë është më e zhvilluar tek i sapolinduri?",
+    "answers": ["Dëgjimi", "Shikimi", "Ndjesia e dhimbjes"]
+  },
+  {
+    "question": "Cili refleks ndodh kur fëmija e sapolindur zgjeron krahët si përgjigje ndaj një zhurme të fortë?",
+    "answers": ["Refleksi Moro", "Refleksi Babinski", "Refleksi i kapjes"]
+  },
+  {
+    "question": "Çfarë mendonte John Locke për fëmijët?",
+    "answers": [
+      "Se lindin si tabula rasa (fletë e bardhë)",
+      "Se lindin të këqij",
+      "Se lindin me aftësi të plotë morale"
+    ]
+  },
+  {
+    "question": "Cila fazë prej Eriksonit lidhet me krijimin e identitetit?",
+    "answers": [
+      "Identiteti kundrejt konfuzionit të roleve",
+      "Zelli kundrejt inferioritetit",
+      "Iniciativa kundrejt fajit"
+    ]
+  },
+  {
+    "question": "Cili stad i Freud lidhet me zhvillimin e kontrollit fizik dhe të disiplinës?",
+    "answers": ["Stadi anal", "Stadi oral", "Stadi latent"]
+  },
+  {
+    "question": "Sipas Bowlby-t, pse lidhet foshnja me kujdestarin?",
+    "answers": [
+      "Sepse atashimi rrit gjasat e mbijetesës",
+      "Sepse është sjellje e mësuar përmes imitimit",
+      "Sepse varet nga shpërblimet materiale"
+    ]
+  },
+  {
+    "question": "Çfarë është mikrosistemi në teorinë ekologjike?",
+    "answers": [
+      "Mjedisi i menjëhershëm i fëmijës me kontakt të drejtpërdrejtë",
+      "Ndryshimet historike dhe kulturore",
+      "Mjediset ku fëmija nuk merr pjesë drejtpërdrejt"
+    ]
+  },
+  {
+    "question": "Cila është karakteristikë e zhvillimit emocional gjatë fëmijërisë së hershme?",
+    "answers": [
+      "Zhvillimi i emocioneve bazike si gëzimi, frika dhe zemërimi",
+      "Aftësia për të rregulluar emocionet në mënyrë të pavarur",
+      "Shfaqja e konceptit të moralit të brendshëm"
+    ]
+  },
+  {
+    "question": "Cila është mënyra kryesore e të nxënit në fazën sensomotorike?",
+    "answers": [
+      "Përmes ndërveprimit fizik me mjedisin",
+      "Përmes mendimit abstrakt",
+      "Përmes gjuhës së zhvilluar"
+    ]
+  },
+  {
+    "question": "Çfarë është koncepti i 'ruajtjes' tek Piaget?",
+    "answers": [
+      "Aftësia për të kuptuar se sasia mbetet e njëjtë edhe kur forma ndryshon",
+      "Aftësia për të imituar sjellje të vështira",
+      "Aftësia për të zgjidhur probleme abstrakte"
+    ]
+  },
+  {
+    "question": "Në cilin stad të Piaget fëmijët mësojnë të përdorin simbolet dhe gjuhën?",
+    "answers": [
+      "Stadi para-operacional",
+      "Stadi sensomotor",
+      "Stadi i operacioneve formale"
+    ]
+  },
+  {
+    "question": "Cila është karakteristikë e studimeve eksperimentale?",
+    "answers": [
+      "Mundësojnë identifikimin e marrëdhënieve shkak-pasojë",
+      "Përdorin vetëm vëzhgime natyrore",
+      "Nuk manipulojnë asnjë variabël"
+    ]
+  },
+  {
+    "question": "Çfarë zakonisht matet në studimet deskriptive?",
+    "answers": [
+      "Përshkrimi i sjelljes pa kërkuar lidhje shkak-pasojë",
+      "Ndikimi i një variabli të caktuar",
+      "Ndryshimet neuronale"
+    ]
+  },
+  {
+    "question": "Cili stil prindërimi lidhet me fëmijë më të pasigurt emocionalisht?",
+    "answers": ["Stili autoritar", "Stili autoritativ", "Stili demokratik"]
+  },
+  {
+    "question": "Cila shqisë është më pak e zhvilluar tek i sapolinduri?",
+    "answers": ["Shikimi", "Dëgjimi", "Të nuhaturit"]
+  },
+  {
+    "question": "Cili sistem zhvillohet i pari tek fetusi?",
+    "answers": ["Sistemi nervor", "Sistemi tretës", "Sistemi respirator"]
+  },
+  {
+    "question": "Cili hormon lidhet me rritjen e emocioneve gjatë adoleshencës?",
+    "answers": ["Dopamina", "Insulina", "Melatonina"]
+  },
+  {
+    "question": "Cila zonë e trurit është përgjegjëse për kontrollin e impulseve?",
+    "answers": ["Korteksi prefrontal", "Amigdala", "Hipokampusi"]
+  },
+  {
+    "question": "Në cilën fazë të Piaget fillon mendimi abstrakt?",
+    "answers": [
+      "Operacionet formale",
+      "Operacionet konkrete",
+      "Faza para-operacionale"
+    ]
+  },
+  {
+    "question": "Çfarë ndodh gjatë procesit të pruning?",
+    "answers": [
+      "Eliminimi i lidhjeve nervore të panevojshme",
+      "Rritja e neuroneve të rinj",
+      "Zgjerimi i dendritëve"
+    ]
+  },
+  {
+    "question": "Cila karakteristikë tregon zhvillimin holistik?",
+    "answers": [
+      "Fushat e zhvillimit ndikojnë njëra-tjetrën",
+      "Zhvillimi ndodh vetëm fizikisht",
+      "Ndodh pa ndikim të mjedisit"
+    ]
+  },
+  {
+    "question": "Cili është funksioni kryesor i placentës?",
+    "answers": [
+      "Siguron ushqim dhe oksigjen për fetusin",
+      "Prodhon gjak për nënën",
+      "Ndërton kockat e fetusit"
+    ]
+  },
+  {
+    "question": "Çfarë ndodh në fazën e zigotës?",
+    "answers": [
+      "Fillon ndarja e qelizave pas fekondimit",
+      "Formohen organet kryesore",
+      "Foshnja fillon të lëvizë"
+    ]
+  },
+  {
+    "question": "Kur fillon pahitja e zemrës tek embrioni?",
+    "answers": [
+      "Rreth javës së 3-4 të shtatzënisë",
+      "Rreth muajit të dytë",
+      "Gjatë muajit të pestë"
+    ]
+  },
+  {
+    "question": "Çfarë është amniotiku (lëngu amniotik)?",
+    "answers": [
+      "Lëng që mbron fetusin nga goditjet dhe infeksionet",
+      "Lëng që ndihmon tretjen e nënës",
+      "Lëng që krijon placentën"
+    ]
+  },
+  {
+    "question": "Nga cila shtresë zhvillohet sistemi nervor?",
+    "answers": ["Ektoderma", "Mezoderma", "Endoderma"]
+  },
+  {
+    "question": "Cila karakteristikë përshkruan teorinë e Freud mbi zhvillimin?",
+    "answers": [
+      "Fokusohet në dëshirat pavetëdijshme dhe konfliktet",
+      "Fokusohet tek mjedisi si faktor kryesor",
+      "Fokusohet tek zhvillimi moral"
+    ]
+  },
+  {
+    "question": "Cili është konflikti i fazës së dytë në Erikson?",
+    "answers": [
+      "Autonomia kundrejt turpit dhe dyshimit",
+      "Besimi kundrejt mosbesimit",
+      "Iniciativa kundrejt fajit"
+    ]
+  },
+  {
+    "question": "Cila është faza latente sipas Freud?",
+    "answers": [
+      "Fazë ku energjia seksuale zbehet dhe fëmijët fokusohen në mësim",
+      "Fazë kur zhvillohet kompleksi i Edipit",
+      "Fazë ku zhvillohet seksualiteti i rritur"
+    ]
+  },
+  {
+    "question": "Në cilën fazë të Piaget fëmijët fillojnë të kuptojnë ruajtjen?",
+    "answers": [
+      "Operacionet konkrete",
+      "Operacionet formale",
+      "Faza para-operacionale"
+    ]
+  },
+  {
+    "question": "Cili është shembull i sjelljes së modelimit sipas Bandurës?",
+    "answers": [
+      "Fëmija imiton sjelljen e prindit",
+      "Fëmija reagon ndaj një ndëshkimi",
+      "Fëmija shfaq sjellje spontane pa model"
+    ]
+  },
+  {
+    "question": "Çfarë është një stil prindërimi lejues?",
+    "answers": [
+      "Prindër të butë, pa kufij të qartë",
+      "Prindër të rreptë",
+      "Prindër demokratikë dhe të balancuar"
+    ]
+  },
+  {
+    "question": "Cili është dallimi kryesor mes skemave dhe operacioneve?",
+    "answers": [
+      "Skemat janë njësi bazike të njohurive, operacionet janë procese mendore të organizuara",
+      "Skemat janë aftësi biologjike, operacionet janë të trashëguara",
+      "Operacionet janë të lindura, skemat fitohen vonë"
+    ]
+  },
+  {
+    "question": "Cili është funksioni i hipokampusit?",
+    "answers": [
+      "Formimi i kujtimeve të reja",
+      "Kontrolli i emocioneve",
+      "Vendimmarrja"
+    ]
+  },
+  {
+    "question": "Çfarë karakterizon atashimin ambivalent?",
+    "answers": [
+      "Fëmija kërkon afërsi por është i pasigurt dhe i shqetësuar",
+      "Fëmija nuk kërkon afërsi dhe shmang kontaktin",
+      "Fëmija ndihet i sigurt dhe eksploron"
+    ]
+  },
+  {
+    "question": "Cila është një karakteristikë e periudhës së fetusi (pas javës së 8)?",
+    "answers": [
+      "Rritja e shpejtë e trupit dhe maturimi i sistemeve",
+      "Formimi i organeve bazike",
+      "Fillimi i ndarjes së qelizave"
+    ]
+  },
+  {
+    "question": "Çfarë mat testi i Apgar-it?",
+    "answers": [
+      "Gjendjen fizike të foshnjës menjëherë pas lindjes",
+      "Nivelin e oksigjenit të nënës",
+      "Ritmin e rritjes së fetusit"
+    ]
+  },
+  {
+    "question": "Cila shqisë është më e pambyllur tek i sapolinduri?",
+    "answers": ["Shikimi", "Dëgjimi", "Ndjesia e prekjes"]
+  },
+  {
+    "question": "Cila karakteristikë tregon zhvillim akumulativ?",
+    "answers": [
+      "Eksperiencat e mëparshme ndikojnë në zhvillimin e mëvonshëm",
+      "Zhvillimi ndodh vetëm fizikisht",
+      "Zhvillimi ndodh pa ndikim të mjedisit"
+    ]
+  },
+  {
+    "question": "Cila është ideja kryesore e Bronfenbrenner për zhvillimin?",
+    "answers": [
+      "Zhvillimi ndodh nga ndërveprimi i fëmijës me sistemet e ndryshme të mjedisit",
+      "Zhvillimi ndodh vetëm përmes pjekurisë biologjike",
+      "Zhvillimi ndodh vetëm përmes të mësuarit"
+    ]
+  },
+  {
+    "question": "Cili është dallimi kryesor mes studimit ndërseksional dhe longitudinal?",
+    "answers": [
+      "Ndërseksional studion mosha të ndryshme në të njëjtën kohë, longitudinal ndjek të njëjtët njerëz për shumë vite",
+      "Longitudinal studion vetëm fëmijët, ndërseksional vetëm të rriturit",
+      "Ndërseksional mat nivele hormoni, longitudinal mat sjellje"
+    ]
+  },
+  {
+    "question": "Cila aftësi zhvillohet gjatë operacioneve formale?",
+    "answers": [
+      "Mendimi abstrakt dhe hipotetik",
+      "Mendimi konkret",
+      "Përdorimi i simboleve të thjeshta"
+    ]
+  },
+  {
+    "question": "Cila është forma më e hershme e komunikimit të foshnjës?",
+    "answers": ["Qarja", "Fjalët e para", "Gjestet e ndërlikuara"]
+  },
+  {
+    "question": "Cili refleks është i lindur dhe ndihmon në ushqim?",
+    "answers": ["Refleksi i thithjes", "Refleksi i ecjes", "Refleksi Moro"]
+  },
+  {
+    "question": "Cili është përkufizimi i mjedisit në psikologjinë e zhvillimit?",
+    "answers": [
+      "Të gjithë faktorët jo-gjenetikë që ndikojnë tek individi",
+      "Vetëm familja dhe shkolla",
+      "Vetëm gjenet e nënës"
+    ]
+  },
+  {
+    "question": "Cila fazë e Erikson lidhet me marrëdhëniet romantike?",
+    "answers": [
+      "Intimiteti kundrejt izolimit",
+      "Gjenerativiteti kundrejt stagnimit",
+      "Integriteti kundrejt dëshpërimit"
+    ]
+  }
+]

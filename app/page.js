@@ -1,18 +1,16 @@
 import Link from "next/link";
+import { promises as fs } from "fs";
+import path from "path";
 
 async function getQuizzes() {
-  const res = await fetch(
-    `${
-      process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"
-    }/data/map.json`,
-    {
-      cache: "no-store",
-    }
-  );
-  if (!res.ok) {
+  try {
+    const filePath = path.join(process.cwd(), "public", "data", "map.json");
+    const fileContents = await fs.readFile(filePath, "utf8");
+    return JSON.parse(fileContents);
+  } catch (error) {
+    console.error("Error reading map.json:", error);
     return [];
   }
-  return res.json();
 }
 
 export default async function Home() {

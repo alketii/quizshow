@@ -13,10 +13,11 @@ export default function QuizPage() {
   const [correctAnswerIndex, setCorrectAnswerIndex] = useState(0);
   const [timeLeft, setTimeLeft] = useState(15);
   const [showCorrectAnswer, setShowCorrectAnswer] = useState(false);
+  const [clickedAnswerIndex, setClickedAnswerIndex] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Load quiz data
+  // Load quiz data and shuffle questions
   useEffect(() => {
     const loadQuiz = async () => {
       try {
@@ -25,7 +26,18 @@ export default function QuizPage() {
           throw new Error("Quiz not found");
         }
         const data = await response.json();
-        setQuestions(data);
+
+        // Shuffle questions on load
+        const shuffledQuestions = [...data];
+        for (let i = shuffledQuestions.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [shuffledQuestions[i], shuffledQuestions[j]] = [
+            shuffledQuestions[j],
+            shuffledQuestions[i],
+          ];
+        }
+
+        setQuestions(shuffledQuestions);
         setLoading(false);
       } catch (err) {
         setError(err.message);
@@ -57,8 +69,20 @@ export default function QuizPage() {
       setCorrectAnswerIndex(correctIndex);
       setTimeLeft(15);
       setShowCorrectAnswer(false);
+      setClickedAnswerIndex(null);
     }
   }, [currentQuestionIndex, questions]);
+
+  // Handle answer click
+  const handleAnswerClick = (index) => {
+    if (showCorrectAnswer || clickedAnswerIndex !== null) return;
+
+    setClickedAnswerIndex(index);
+
+    // Show correct answer immediately and start 5 second countdown
+    setShowCorrectAnswer(true);
+    setTimeLeft(5);
+  };
 
   // Timer logic
   useEffect(() => {
@@ -125,13 +149,20 @@ export default function QuizPage() {
             Kuiz
           </h1>
           <div>
-            <span
-              className={`text-4xl font-bold ${
-                timeLeft <= 5 ? "text-red-500" : "text-green-500"
-              }`}
-            >
-              {timeLeft}
-            </span>
+            {!showCorrectAnswer && (
+              <span
+                className={`text-4xl font-bold ${
+                  timeLeft <= 5 ? "text-red-500" : "text-green-500"
+                }`}
+              >
+                {timeLeft}
+              </span>
+            )}
+            {showCorrectAnswer && (
+              <span className="text-4xl font-bold text-blue-500">
+                {timeLeft}
+              </span>
+            )}
           </div>
         </div>
 
@@ -144,24 +175,42 @@ export default function QuizPage() {
 
         {/* Answer buttons */}
         <div className="space-y-4">
-          {shuffledAnswers.map((answer, index) => (
-            <button
-              key={index}
-              className={`
-                w-full py-6 px-8 rounded-xl text-xl font-semibold transition-all duration-300 transform hover:scale-105
-                ${
-                  showCorrectAnswer
-                    ? index === correctAnswerIndex
-                      ? "bg-green-500 text-white shadow-lg scale-105"
-                      : "bg-gray-300 text-gray-600"
-                    : "bg-white text-gray-800 hover:bg-blue-50 shadow-md hover:shadow-lg"
-                }
-              `}
-              disabled={showCorrectAnswer}
-            >
-              {answer}
-            </button>
-          ))}
+          {shuffledAnswers.map((answer, index) => {
+            let buttonClass =
+              "bg-white text-gray-800 hover:bg-blue-50 shadow-md hover:shadow-lg";
+
+            if (showCorrectAnswer) {
+              // Show correct answer in green
+              if (index === correctAnswerIndex) {
+                buttonClass = "bg-green-500 text-white shadow-lg scale-105";
+              } else {
+                buttonClass = "bg-gray-300 text-gray-600";
+              }
+            } else if (clickedAnswerIndex !== null) {
+              // User clicked an answer
+              if (
+                index === clickedAnswerIndex &&
+                index !== correctAnswerIndex
+              ) {
+                // Clicked wrong answer - show red
+                buttonClass = "bg-red-500 text-white shadow-lg";
+              }
+            }
+
+            return (
+              <button
+                key={index}
+                onClick={() => handleAnswerClick(index)}
+                className={`
+                  w-full py-6 px-8 rounded-xl text-xl font-semibold transition-all duration-300 transform hover:scale-105
+                  ${buttonClass}
+                `}
+                disabled={showCorrectAnswer}
+              >
+                {answer}
+              </button>
+            );
+          })}
         </div>
 
         {/* Question counter */}

@@ -169,7 +169,7 @@ export default function QuizPage() {
   const currentQuestion = questions[currentQuestionIndex];
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-blue-50 to-indigo-100 p-4">
+    <div className="min-h-screen bg-linear-to-br from-blue-100 to-indigo-200 p-4">
       <div className="max-w-4xl mx-auto">
         {/* Header with timer */}
         <div className="flex justify-between items-center mb-8">
@@ -269,8 +269,8 @@ export default function QuizPage() {
           })}
         </div>
 
-        {/* Next button - shown when correct answer is revealed */}
-        {showCorrectAnswer && (
+        {/* Next button - shown when correct answer is revealed in Interactive mode */}
+        {showCorrectAnswer && mode === "interactive" && (
           <div className="mt-8 text-center">
             <button
               onClick={handleNext}

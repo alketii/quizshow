@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { useParams } from "next/navigation";
+import Link from "next/link";
 import { MousePointerClick, Presentation, ArrowRight } from "lucide-react";
 
 export default function QuizPage() {
@@ -172,21 +173,12 @@ export default function QuizPage() {
       <div className="max-w-4xl mx-auto">
         {/* Header with timer */}
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-2xl font-bold text-gray-300 capitalize">
-            {/* Kuiz: {quizName} */}
-            Kuiz
-          </h1>
+          <Link href="/">
+            <h1 className="text-2xl font-bold text-gray-300 capitalize hover:text-gray-500 cursor-pointer transition-colors">
+              Kuiz
+            </h1>
+          </Link>
           <div className="flex items-center gap-4">
-            <button
-              onClick={toggleMode}
-              className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 rounded-lg shadow transition-colors"
-            >
-              {mode === "interactive" ? (
-                <Presentation size={24} />
-              ) : (
-                <MousePointerClick size={24} />
-              )}
-            </button>
             {mode === "show" && (
               <div className="w-12 text-right">
                 {!showCorrectAnswer && (
@@ -205,6 +197,16 @@ export default function QuizPage() {
                 )}
               </div>
             )}
+            <button
+              onClick={toggleMode}
+              className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 rounded-lg shadow transition-colors"
+            >
+              {mode === "interactive" ? (
+                <Presentation size={24} />
+              ) : (
+                <MousePointerClick size={24} />
+              )}
+            </button>
           </div>
         </div>
 
@@ -248,12 +250,18 @@ export default function QuizPage() {
             return (
               <button
                 key={index}
-                onClick={() => handleAnswerClick(index)}
+                onClick={() =>
+                  mode === "interactive" && handleAnswerClick(index)
+                }
                 className={`
-                  w-full py-6 px-8 rounded-xl text-xl font-semibold transition-all duration-300 transform hover:scale-105
+                  w-full py-6 px-8 rounded-xl text-xl font-semibold transition-all duration-300 ${
+                    mode === "interactive" && !showCorrectAnswer
+                      ? "transform hover:scale-105"
+                      : ""
+                  }
                   ${buttonClass}
                 `}
-                disabled={showCorrectAnswer}
+                disabled={showCorrectAnswer || mode === "show"}
               >
                 {answer}
               </button>

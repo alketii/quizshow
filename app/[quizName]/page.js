@@ -14,6 +14,7 @@ export default function QuizPage() {
   const [timeLeft, setTimeLeft] = useState(15);
   const [showCorrectAnswer, setShowCorrectAnswer] = useState(false);
   const [clickedAnswerIndex, setClickedAnswerIndex] = useState(null);
+  const [isPaused, setIsPaused] = useState(false);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -79,14 +80,24 @@ export default function QuizPage() {
 
     setClickedAnswerIndex(index);
 
-    // Show correct answer immediately and start 5 second countdown
+    // Show correct answer immediately and pause timer
     setShowCorrectAnswer(true);
-    setTimeLeft(5);
+    setIsPaused(true);
+  };
+
+  // Handle next button
+  const handleNext = () => {
+    setCurrentQuestionIndex((prevIndex) => (prevIndex + 1) % questions.length);
+  };
+
+  // Toggle play/pause
+  const togglePause = () => {
+    setIsPaused(!isPaused);
   };
 
   // Timer logic
   useEffect(() => {
-    if (questions.length === 0) return;
+    if (questions.length === 0 || isPaused) return;
 
     const timer = setInterval(() => {
       setTimeLeft((prevTime) => {
@@ -109,7 +120,7 @@ export default function QuizPage() {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [questions.length, showCorrectAnswer]);
+  }, [questions.length, showCorrectAnswer, isPaused]);
 
   if (loading) {
     return (
@@ -148,21 +159,35 @@ export default function QuizPage() {
             {/* Kuiz: {quizName} */}
             Kuiz
           </h1>
-          <div>
-            {!showCorrectAnswer && (
-              <span
-                className={`text-4xl font-bold ${
-                  timeLeft <= 5 ? "text-red-500" : "text-green-500"
-                }`}
-              >
-                {timeLeft}
-              </span>
-            )}
-            {showCorrectAnswer && (
-              <span className="text-4xl font-bold text-blue-500">
-                {timeLeft}
-              </span>
-            )}
+          <div className="flex items-center gap-4">
+            <button
+              onClick={togglePause}
+              className=" text-gray-800 font-semibold py-2 px-4 w-12 "
+            >
+              {isPaused ? "▶️" : "⏸️"}
+            </button>
+            <div className="w-12 text-right">
+              {isPaused ? (
+                <span className="text-4xl font-bold text-gray-400">0</span>
+              ) : (
+                <>
+                  {!showCorrectAnswer && (
+                    <span
+                      className={`text-4xl font-bold ${
+                        timeLeft <= 5 ? "text-red-500" : "text-green-500"
+                      }`}
+                    >
+                      {timeLeft}
+                    </span>
+                  )}
+                  {showCorrectAnswer && (
+                    <span className="text-4xl font-bold text-blue-500">
+                      {timeLeft}
+                    </span>
+                  )}
+                </>
+              )}
+            </div>
           </div>
         </div>
 
@@ -212,6 +237,18 @@ export default function QuizPage() {
             );
           })}
         </div>
+
+        {/* Next button - shown when answer is clicked */}
+        {clickedAnswerIndex !== null && (
+          <div className="mt-8 text-center">
+            <button
+              onClick={handleNext}
+              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-12 rounded-lg shadow-lg transition-colors text-xl"
+            >
+              Tjetra ➡️
+            </button>
+          </div>
+        )}
 
         {/* Question counter */}
         <div className="mt-8 text-center">

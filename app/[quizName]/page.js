@@ -1,7 +1,8 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useParams } from "next/navigation";
+import { MousePointerClick, Presentation, ArrowRight } from "lucide-react";
 
 export default function QuizPage() {
   const params = useParams();
@@ -14,9 +15,10 @@ export default function QuizPage() {
   const [timeLeft, setTimeLeft] = useState(15);
   const [showCorrectAnswer, setShowCorrectAnswer] = useState(false);
   const [clickedAnswerIndex, setClickedAnswerIndex] = useState(null);
-  const [isPaused, setIsPaused] = useState(false);
+  const [mode, setMode] = useState("interactive"); // 'interactive' or 'show'
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const answerTimeoutRef = useRef(null);
 
   // Load quiz data and shuffle questions
   useEffect(() => {
@@ -74,15 +76,30 @@ export default function QuizPage() {
     }
   }, [currentQuestionIndex, questions]);
 
+  // Clear timeout when question changes
+  useEffect(() => {
+    if (answerTimeoutRef.current) {
+      clearTimeout(answerTimeoutRef.current);
+      answerTimeoutRef.current = null;
+    }
+  }, [currentQuestionIndex]);
+
   // Handle answer click
   const handleAnswerClick = (index) => {
     if (showCorrectAnswer || clickedAnswerIndex !== null) return;
 
     setClickedAnswerIndex(index);
 
-    // Show correct answer immediately and pause timer
-    setShowCorrectAnswer(true);
-    setIsPaused(true);
+    // In Interactive mode, delay showing correct answer if wrong
+    if (index !== correctAnswerIndex) {
+      // Show wrong answer in red for 1 second
+      answerTimeoutRef.current = setTimeout(() => {
+        setShowCorrectAnswer(true);
+      }, 1000);
+    } else {
+      // Show correct answer immediately if right
+      setShowCorrectAnswer(true);
+    }
   };
 
   // Handle next button
@@ -90,14 +107,14 @@ export default function QuizPage() {
     setCurrentQuestionIndex((prevIndex) => (prevIndex + 1) % questions.length);
   };
 
-  // Toggle play/pause
-  const togglePause = () => {
-    setIsPaused(!isPaused);
+  // Toggle mode
+  const toggleMode = () => {
+    setMode(mode === "interactive" ? "show" : "interactive");
   };
 
   // Timer logic
   useEffect(() => {
-    if (questions.length === 0 || isPaused) return;
+    if (questions.length === 0 || mode === "interactive") return;
 
     const timer = setInterval(() => {
       setTimeLeft((prevTime) => {
@@ -120,7 +137,7 @@ export default function QuizPage() {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [questions.length, showCorrectAnswer, isPaused]);
+  }, [questions.length, showCorrectAnswer, mode]);
 
   if (loading) {
     return (
@@ -161,33 +178,33 @@ export default function QuizPage() {
           </h1>
           <div className="flex items-center gap-4">
             <button
-              onClick={togglePause}
-              className=" text-gray-800 font-semibold py-2 px-4 w-12 "
+              onClick={toggleMode}
+              className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 rounded-lg shadow transition-colors"
             >
-              {isPaused ? "▶️" : "⏸️"}
-            </button>
-            <div className="w-12 text-right">
-              {isPaused ? (
-                <span className="text-4xl font-bold text-gray-400">0</span>
+              {mode === "interactive" ? (
+                <Presentation size={24} />
               ) : (
-                <>
-                  {!showCorrectAnswer && (
-                    <span
-                      className={`text-4xl font-bold ${
-                        timeLeft <= 5 ? "text-red-500" : "text-green-500"
-                      }`}
-                    >
-                      {timeLeft}
-                    </span>
-                  )}
-                  {showCorrectAnswer && (
-                    <span className="text-4xl font-bold text-blue-500">
-                      {timeLeft}
-                    </span>
-                  )}
-                </>
+                <MousePointerClick size={24} />
               )}
-            </div>
+            </button>
+            {mode === "show" && (
+              <div className="w-12 text-right">
+                {!showCorrectAnswer && (
+                  <span
+                    className={`text-4xl font-bold ${
+                      timeLeft <= 5 ? "text-red-500" : "text-green-500"
+                    }`}
+                  >
+                    {timeLeft}
+                  </span>
+                )}
+                {showCorrectAnswer && (
+                  <span className="text-4xl font-bold text-blue-500">
+                    {timeLeft}
+                  </span>
+                )}
+              </div>
+            )}
           </div>
         </div>
 
@@ -205,9 +222,15 @@ export default function QuizPage() {
               "bg-white text-gray-800 hover:bg-blue-50 shadow-md hover:shadow-lg";
 
             if (showCorrectAnswer) {
-              // Show correct answer in green
+              // Show correct answer in green, keep wrong answer in red
               if (index === correctAnswerIndex) {
                 buttonClass = "bg-green-500 text-white shadow-lg scale-105";
+              } else if (
+                index === clickedAnswerIndex &&
+                clickedAnswerIndex !== correctAnswerIndex
+              ) {
+                // Keep wrong clicked answer red
+                buttonClass = "bg-red-500 text-white shadow-lg";
               } else {
                 buttonClass = "bg-gray-300 text-gray-600";
               }
@@ -238,14 +261,14 @@ export default function QuizPage() {
           })}
         </div>
 
-        {/* Next button - shown when answer is clicked */}
-        {clickedAnswerIndex !== null && (
+        {/* Next button - shown when correct answer is revealed */}
+        {showCorrectAnswer && (
           <div className="mt-8 text-center">
             <button
               onClick={handleNext}
-              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-12 rounded-lg shadow-lg transition-colors text-xl"
+              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-12 rounded-lg shadow-lg transition-colors text-xl flex items-center justify-center gap-2 mx-auto"
             >
-              Tjetra ➡️
+              Tjetra <ArrowRight size={24} />
             </button>
           </div>
         )}

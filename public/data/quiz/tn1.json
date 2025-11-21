@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Piazheja identifikoi katër faktorë që ndërveprojnë me njëri-tjetrin dhe ndikojnë në ndryshimet që pëson mënyra jonë e të menduarit. Cilin nga faktorët përfaqëson: 'Pa transmetimin shoqëror ne duhet t’i shpiknim nga e para'?",
+    "answers": [
+      "Përvojat shoqërore / transmetimi shoqëror",
+      "Pjekuria biologjike",
+      "Aktiviteti / veprimtaria"
+    ]
+  },
+  {
+    "question": "Çfarë është asimilimi sipas Piazhesë?",
+    "answers": [
+      "Fitimi i informacionit të ri duke përdorur skemat mendore ekzistuese",
+      "Ndryshimi i skemave ekzistuese për t'u përshtatur me informacion të ri",
+      "Balancimi mes asimilimit dhe akomodimit"
+    ]
+  },
+  {
+    "question": "Çfarë është akomodimi?",
+    "answers": [
+      "Përshtatja e mendimit me informacion të ri duke krijuar skema të reja",
+      "Vetëm ruajtja e skemave të vjetra pa ndryshim",
+      "Gjetja e informacionit që përputhet me besimet ekzistuese"
+    ]
+  },
+  {
+    "question": "Çfarë është ekuilibrimi në teorinë e Piazhesë?",
+    "answers": [
+      "Gjendja e balancës midis asimilimit dhe akomodimit",
+      "Vetëm procesi i zgjidhjes së konflikteve logjike",
+      "Proces i pavarur nga asimilimi dhe akomodimi"
+    ]
+  },
+  {
+    "question": "Permanenca e objektit i përket cilit stad të zhvillimit konjitiv?",
+    "answers": [
+      "Stadit sensoro-motorik (0–2 vjeç)",
+      "Stadit para-operacional (2–7 vjeç)",
+      "Stadit konkret-operacional (7–11 vjeç)"
+    ]
+  },
+  {
+    "question": "Cila prej këtyre është karakteristikë e stadit para-operacional?",
+    "answers": [
+      "Egocentrizmi dhe vështirësia në detyrat e konservimit",
+      "Mendimi hipotetik-deduktiv",
+      "Aftësi të plota të kthyeshmërisë logjike"
+    ]
+  },
+  {
+    "question": "Në cilin stad fëmija fillon të përdorë simbolet (fjalë, imazhe, shenja)?",
+    "answers": [
+      "Stadi para-operacional (2–7 vjeç)",
+      "Stadi konkret-operacional (7–11 vjeç)",
+      "Stadi formal-operacional (11–15 vjeç)"
+    ]
+  },
+  {
+    "question": "Çfarë nënkupton konservimi sipas Piazhesë?",
+    "answers": [
+      "Sasia e diçkaje mbetet e njëjtë edhe nëse ndryshon paraqitja",
+      "Sasia ndryshon vetëm kur ndryshon ngjyra",
+      "Sasia rritet kur objekti ndahet në pjesë të vogla"
+    ]
+  },
+  {
+    "question": "Cili koncept përshkruan vështirësinë për t'u fokusuar në më shumë se një aspekt të situatës?",
+    "answers": ["Decentrimi", "Egocentrizmi", "Vargëzimi"]
+  },
+  {
+    "question": "Në cilin stad zhvillohet të menduarit logjik rreth objekteve konkrete?",
+    "answers": [
+      "Stadi konkret-operacional",
+      "Stadi sensoro-motorik",
+      "Stadi para-operacional"
+    ]
+  },
+  {
+    "question": "Cili stad karakterizohet nga aftësia për të menduar në mënyrë abstrakte dhe hipotetike?",
+    "answers": [
+      "Stadi formal-operacional",
+      "Stadi konkret-operacional",
+      "Stadi para-operacional"
+    ]
+  },
+  {
+    "question": "Çfarë nënkupton egocentrizmi i adoleshentit?",
+    "answers": [
+      "Bindja se të tjerët ndajnë të njëjtat shqetësime dhe se po e vëzhgojnë atë",
+      "Pamundësia për të kuptuar lidhjet shkak-pasojë",
+      "Prirja për të imituar të rriturit në situata shoqërore"
+    ]
+  },
+  {
+    "question": "Sipas Eriksonit, kriza psikosociale e fazës së parë është:",
+    "answers": [
+      "Besimi kundrejt mosbesimit",
+      "Autonomia kundrejt turpit",
+      "Iniciativa kundrejt fajit"
+    ]
+  },
+  {
+    "question": "Çfarë përfaqëson autonomia në teorinë e Eriksonit?",
+    "answers": [
+      "Pavarësinë në zhvillimin e aftësive themelore",
+      "Bindjen ndaj autoritetit",
+      "Mësimin e roleve shoqërore"
+    ]
+  },
+  {
+    "question": "Në teorinë e Eriksonit, cila fazë lidhet me zhvillimin e identitetit?",
+    "answers": ["Adoleshenca", "Mosha e mesme", "Fëmijëria e hershme"]
+  },
+  {
+    "question": "Cili koncept përshkruan pezullimin e vendimeve për shkak të pavendosmërisë në identitet?",
+    "answers": ["Moratoriumi", "Identiteti i mbyllur", "Integriteti i egos"]
+  },
+  {
+    "question": "Cili është roli i mësuesit sipas Wadsworth lidhur me zhvillimin konjitiv?",
+    "answers": [
+      "Të sigurojë që zhvillimi brenda secilës fazë të jetë i integruar dhe i përfunduar, jo të shpejtojë kalimin në fazën tjetër",
+      "Të nxisë fëmijët të kalojnë sa më shpejt nga një fazë në tjetrën",
+      "Të shmangë orientimin e fëmijëve në detyra të reja"
+    ]
+  },
+  {
+    "question": "Sipas Vigotskit, çdo funksion kulturor i zhvillimit shfaqet dy herë. Fillimisht shfaqet:",
+    "answers": [
+      "Në nivelin shoqëror (ndërpsikologjik)",
+      "Në nivelin individual (intrapsikologjik)",
+      "Në zhvillimin biologjik"
+    ]
+  },
+  {
+    "question": "Zona e zhvillimit proksimal është hapësira midis:",
+    "answers": [
+      "Aftësive aktuale të fëmijës dhe atyre që mund të arrijë me ndihmë",
+      "Asimilimit dhe akomodimit",
+      "Shkallës së vështirësisë dhe motivimit"
+    ]
+  },
+  {
+    "question": "Cili element është i domosdoshëm për të shfrytëzuar zonën e zhvillimit proksimal?",
+    "answers": [
+      "Mësimdhënësi ose bashkëmoshatari më i aftë",
+      "Shpjegimi i gjatë teorik",
+      "Pavarësia totale pa orientim"
+    ]
+  },
+  {
+    "question": "Cili model shpjegon ndikimin e niveleve të ndryshme të mjedisit tek individi?",
+    "answers": [
+      "Modeli bioekologjik i Bronfenbrennerit",
+      "Teoria e të nxënit klasik",
+      "Teoria e kushtëzimit operant"
+    ]
+  },
+  {
+    "question": "Cili është qëllimi i klasifikimit në stadin konkret-operacional?",
+    "answers": [
+      "Grupimi i objekteve sipas një karakteristike të vetme",
+      "Fokusimi në dy karakteristika njëkohësisht",
+      "Ndërtimi i kategorive abstrakte"
+    ]
+  },
+  {
+    "question": "Në cilin rast shfaqet vargëzimi?",
+    "answers": [
+      "Kur fëmija rendit objektet nga më i vogli te më i madhi ose anasjelltas",
+      "Kur fëmija i ndan objektet sipas formës",
+      "Kur fëmija numëron objektet pa i sistemuar"
+    ]
+  },
+  {
+    "question": "Cili lloj përforcimi jepet pas çdo reagimi?",
+    "answers": [
+      "Përforcimi i vazhduar",
+      "Përforcimi me numër të ndryshueshëm",
+      "Përforcimi me interval të ndryshueshëm"
+    ]
+  },
+  {
+    "question": "Cili lloj përforcimi përshkruan testet e papritura?",
+    "answers": [
+      "Interval i ndryshueshëm",
+      "Interval me kohë fikse",
+      "Numër i fiksuar reagimesh"
+    ]
+  },
+  {
+    "question": "Cili lloj kujtese përfshin njohurinë 'si të bëhet diçka'?",
+    "answers": [
+      "Kujtesa procedurale",
+      "Kujtesa deklarative",
+      "Kujtesa semantike"
+    ]
+  },
+  {
+    "question": "Cili është funksioni i metakognicionit?",
+    "answers": [
+      "Planifikimi, monitorimi dhe vlerësimi i të nxënit",
+      "Sigurimi i të mësuarit automatik",
+      "Rritja e sasisë së informacionit të ruajtur"
+    ]
+  },
+  {
+    "question": "Cili është hapi i parë i strategjive të zgjidhjes së problemeve sipas Bransford & Stein?",
+    "answers": [
+      "Identifikimi i problemit dhe mundësive",
+      "Eksplorimi i strategjive të mundshme",
+      "Parashikimi i rezultateve"
+    ]
+  },
+  {
+    "question": "Transferi i rrugës së ulët karakterizohet nga:",
+    "answers": [
+      "Zbatimi automatik i aftësive të ushtruara gjerësisht",
+      "Zbatimi i vetëdijshëm i njohurive abstrakte",
+      "Mësimi në situata të reja pa ndihmë"
+    ]
+  },
+  {
+    "question": "Transferi i rrugës së lartë nënkupton:",
+    "answers": [
+      "Përdorimin e njohurive abstrakte në situata të reja përmes përqendrimit të vetëdijshëm",
+      "Reagimin automatik ndaj situatave të ngjashme",
+      "Mësimin eksperiencial pa analizë"
+    ]
+  },
+  {
+    "question": "Çfarë nënkupton prirja e organizimit në teorinë e Piazhesë?",
+    "answers": [
+      "Tendenca për të kombinuar dhe sistemuar proceset mendore në struktura koherente",
+      "Përpjekjen për të mbledhur sa më shumë objekte fizike",
+      "Aftësinë për të mësuar vetëm nga imitimi"
+    ]
+  },
+  {
+    "question": "Skemat kognitive janë:",
+    "answers": [
+      "Përfaqësime të brendshme të aktiviteteve dhe përvojave tona",
+      "Vetëm fjalë që përdor fëmija për të qenë kreativ",
+      "Lista të gatshme rregullash të mësuara nga të rriturit"
+    ]
+  },
+  {
+    "question": "Cili është shembull i asimilimit?",
+    "answers": [
+      "Përdorimi i skemës së 'kalit' edhe kur fëmija sheh një gomar",
+      "Krijimi i skemës së re për 'zebër'",
+      "Ndryshimi i një skeme vetëm pasi dikush e detyron fëmijën"
+    ]
+  },
+  {
+    "question": "Cili është shembull i akomodimit?",
+    "answers": [
+      "Kur fëmija krijon një skemë të re për një kafshë të panjohur",
+      "Kur fëmija përsërit një veprim të njëjtë në situata të ngjashme",
+      "Kur fëmija ngurtësohet në skemat ekzistuese"
+    ]
+  },
+  {
+    "question": "Cili koncept përshkruan gjendjen kur skemat përputhen me realitetin dhe fëmija ndihet në qetësi?",
+    "answers": ["Ekuilibri", "Decentrimi", "Kthyeshmëria"]
+  },
+  {
+    "question": "Në stadin sensoro-motorik, njohuria mësohet përmes:",
+    "answers": [
+      "Shqisave dhe veprimeve motorike",
+      "Gjuhës së folur dhe shkrimit",
+      "Arsyetimit të strukturuar"
+    ]
+  },
+  {
+    "question": "Cili prej koncepteve është thelbësor për moshën 0–2 vjeç?",
+    "answers": [
+      "Permanenca e objektit",
+      "Konservimi i lëndës",
+      "Të menduarit hipotetik"
+    ]
+  },
+  {
+    "question": "Internalizimi i veprimit ndodh në cilin stad?",
+    "answers": [
+      "Në stadin para-operacional",
+      "Në stadin konkret-operacional",
+      "Në stadin formal-operacional"
+    ]
+  },
+  {
+    "question": "Egocentrizmi i fëmijës shfaqet si:",
+    "answers": [
+      "Pamundësia për të parë perspektivën e tjetrit",
+      "Interesi i lartë për logjikën formale",
+      "Aftësia për të bërë krahasime abstrakte"
+    ]
+  },
+  {
+    "question": "Konservimi i sasive të lëngjeve teston aftësinë për:",
+    "answers": [
+      "Të kuptuarit se sasia mbetet e njëjtë pavarësisht formës së enës",
+      "Të vlerësuarit e shpejtësisë së rrjedhës",
+      "Të zgjedhurit e objektit më të bukur vizualisht"
+    ]
+  },
+  {
+    "question": "Në stadin konkret-operacional fëmija fiton aftësinë për:",
+    "answers": [
+      "Zbatimin e kthyeshmërisë logjike",
+      "Të menduarit formal dhe hipotetik",
+      "Të menduarit vetëm në terma simbolikë"
+    ]
+  },
+  {
+    "question": "Transitiviteti nënkupton:",
+    "answers": [
+      "Të kuptuarit e lidhjes A > B dhe B > C, prandaj A > C",
+      "Të lexuarit me ritëm të tranzicionuar",
+      "Të kaluarit nga një detyrë në tjetrën me shpejtësi"
+    ]
+  },
+  {
+    "question": "Cila karakteristikë i përket stadit formal-operacional?",
+    "answers": [
+      "Arsyetimi hipotetik-deduktiv",
+      "Mësimi përmes imitimit vetëm",
+      "Mendimi i varur nga veprimi fizik"
+    ]
+  },
+  {
+    "question": "Egocentrizmi i adoleshentit shpesh lidhet me idenë:",
+    "answers": [
+      "Imaginary audience – besimi se të tjerët e vëzhgojnë vazhdimisht",
+      "Mungesa e çdo vetëbesimi",
+      "Aftësia për të mos gabuar kurrë"
+    ]
+  },
+  {
+    "question": "Sipas teorive neopiazhejane, zhvillimi konjitiv ndodh:",
+    "answers": [
+      "Brenda fushave specifike si numërimi, hapësira dhe arsyetimi fizik",
+      "Gjithmonë në mënyrë identike për të gjithë fëmijët",
+      "Vetëm kur fëmija mëson të shkruajë"
+    ]
+  },
+  {
+    "question": "Robbie Case thekson se rritja e automatizimit të skemave:",
+    "answers": [
+      "Çliron kapacitete mendore për njohuri të reja",
+      "E zvogëlon kujdesin ndaj detajeve",
+      "E ndalon zhvillimin e mëtejshëm"
+    ]
+  },
+  {
+    "question": "Sipas teorive kulturore, zhvillimi konjitiv ndikohet fuqishëm nga:",
+    "answers": [
+      "Grupet shoqërore dhe mjedisi kulturor",
+      "Vetëm nga biologjia",
+      "Vetëm nga aftësitë individuale të lindura"
+    ]
+  },
+  {
+    "question": "Shembulli i fëmijëve në Brazil dhe fiseve Kpelle përdoret për të treguar:",
+    "answers": [
+      "Ndryshimet kulturore në mënyrën e klasifikimit",
+      "Uniformitetin e plotë të mendimit",
+      "Pamundësinë e fëmijëve për të kryer detyra abstrakte"
+    ]
+  },
+  {
+    "question": "Sipas Vigotskit, cilat janë burimet shoqërore të mendimit individual?",
+    "answers": [
+      "Funksionet zhvillimore shfaqen së pari në nivel shoqëror e pastaj individual",
+      "Funksionet zhvillimore janë të lindura dhe të pavarura nga shoqëria",
+      "Zhvillimi ndodh vetëm përmes imitimit motorik"
+    ]
+  },
+  {
+    "question": "Zona e zhvillimit proksimal përfshin:",
+    "answers": [
+      "Dallimin mes asaj që fëmija mund të bëjë vetë dhe asaj që arrin me ndihmë",
+      "Vetëm moshën biologjike të fëmijës",
+      "Përpjekjen e fëmijës për të mësuar pa ndihmë"
+    ]
+  },
+  {
+    "question": "Cili është roli i bashkëmoshatarit më të aftë në ZPD?",
+    "answers": [
+      "Ofron mbështetje për zgjidhjen e detyrave brenda zonës së zhvillimit",
+      "Ndjek progresin pa dhënë asnjë ndihmë",
+      "Jep përgjigjet pa përfshirë fëmijën"
+    ]
+  },
+  {
+    "question": "Bronfenbrenneri përfshin në modelin e tij nivelin më të afërt të ndikimit:",
+    "answers": ["Mikrosistemin", "Makrosistemin", "Kronosistemin"]
+  },
+  {
+    "question": "Makrosistemi përfshin:",
+    "answers": [
+      "Vlerat kulturore, normat dhe besimet e shoqërisë",
+      "Ndërveprimet e afërta të përditshme",
+      "Vetëm strukturat politike"
+    ]
+  },
+  {
+    "question": "Cili stil prindërimi sipas Baumrind karakterizohet nga ngrohtësi dhe kërkesa të qarta?",
+    "answers": ["Stili autoritativ", "Stili autoritar", "Stili neglizhues"]
+  },
+  {
+    "question": "Në teorinë e Eriksonit, iniciativa në raport me fajin lidhet me moshën:",
+    "answers": ["3 deri 6 vjeç", "6 deri 12 vjeç", "12 deri 18 vjeç"]
+  },
+  {
+    "question": "Faza 'Sipërmarrja në raport me inferioritetin' lidhet me:",
+    "answers": [
+      "Aftësinë për të menaxhuar kërkesat shkollore",
+      "Formimin e marrëdhënieve intime",
+      "Pranimin e ciklit të jetës"
+    ]
+  },
+  {
+    "question": "Identiteti i mbyllur (i paracaktuar) përshkruan:",
+    "answers": [
+      "Pranimin e zgjedhjeve të prindërve pa shqyrtuar opsionet",
+      "Ndryshimin e shpeshtë të roleve",
+      "Mos-angazhimin total ndaj identitetit"
+    ]
+  },
+  {
+    "question": "Orientimi 'djalë i mirë – vajzë e mirë' i përket fazës:",
+    "answers": [
+      "Arsyetimit moral konvencional",
+      "Arsyetimit moral parakonvencional",
+      "Arsyetimit moral paskonvencional"
+    ]
+  },
+  {
+    "question": "Cili lloj përforcimi ka pauzë të shkurtër pas shpërblimit dhe vazhdim të lartë të reagimit?",
+    "answers": [
+      "Përforcimi me numër të ndryshueshëm",
+      "Përforcimi me interval fiks",
+      "Përforcimi i vazhduar"
+    ]
+  },
+  {
+    "question": "Premack parimi nënkupton:",
+    "answers": [
+      "Përdorimin e një sjelljeje të preferuar për të përforcuar një sjellje më pak të preferuar",
+      "Ndëshkimin pas çdo sjelljeje të gabuar",
+      "Uljen graduale të interesit të fëmijës për shpërblim"
+    ]
+  },
+  {
+    "question": "Kujtesa deklarative përfshin:",
+    "answers": [
+      "Pohimet, imazhet, konceptet dhe skemat",
+      "Vetëm automatizmin e veprimeve motorike",
+      "Informacionin që ruhet për sekonda të pakta"
+    ]
+  },
+  {
+    "question": "Metakognicioni përfshin këto procese:",
+    "answers": [
+      "Planifikim, monitorim dhe vlerësim",
+      "Reagim instinktiv dhe automatik",
+      "Mësim vetëm nga përvoja"
+    ]
+  },
+  {
+    "question": "Cila strategji përdor pyetjet: 'Çfarë di?', 'Çfarë dua të di?', 'Çfarë mësova?'",
+    "answers": ["Strategjia e tri Ç-ve", "Strategjia READS", "Strategjia CAPS"]
+  },
+  {
+    "question": "Strategjia READS përfshin:",
+    "answers": [
+      "Rishikimin e titujve, ekzaminimin e fjalëve kyçe, analizën, leximin dhe sqarimin",
+      "Vetëm lexim të shpejtë pa analizë",
+      "Memorizim të verbër pa strukturë"
+    ]
+  },
+  {
+    "question": "Cila strategji ndihmon në kuptimin e tregimit përmes: Characters, Aim, Problem, Solved?",
+    "answers": ["Strategjia CAPS", "Strategjia READS", "Strategjia e tri Ç-ve"]
+  },
+  {
+    "question": "Hapi i tretë i strategjisë së zgjidhjes së problemeve është:",
+    "answers": [
+      "Eksplorimi i strategjive të mundshme",
+      "Përcaktimi i objektivave",
+      "Kthimi mbrapsht"
+    ]
+  },
+  {
+    "question": "Të menduarit kritik përfshin:",
+    "answers": [
+      "Dallimin mes fakteve, opinioneve dhe gjykimeve të arsyetuara",
+      "Përdorimin e mendimit intuitiv",
+      "Mbështetjen tek autoriteti pa analizë"
+    ]
+  }
+]
